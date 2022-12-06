@@ -1,0 +1,39 @@
+
+
+.Container__items{
+    color:rgb(195, 194, 194);
+    display:grid;
+    padding:20px;
+    margin: 20px;
+    max-width: 250px;
+    height: 250px;
+    border: 3px solid rgb(28, 152, 220);
+    border-radius: 20px;
+}
+
+.Container__UpdateDelete button:hover
+{
+    transform: scale(1.1);
+   background-color: orange;
+    transition: 0.2s ease all;
+}
+
+.Container__items
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.Container__UpdateDelete button
+{
+    border: none;
+    background-color: rgb(28, 152, 220);
+    margin:0 10px 0 0;
+    border-radius: 4px;
+    padding: 4px;
+
+    width: 80px;
+}

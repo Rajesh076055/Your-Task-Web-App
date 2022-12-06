@@ -1,0 +1,52 @@
+
+
+
+.Navbar__Container
+{
+    background-color: rgb(31, 31, 31);
+    
+    min-height: 60px;
+    display: flex;
+    font-family:Helvetica;
+    margin: 0 0 0 20px;
+    align-items: center;
+ 
+}
+.Navbar__Logo
+{
+    flex:0.9;
+}
+.Navbar__Logo img
+{
+    object-fit: contain;
+    height: 40px;
+}
+
+.Navbar__List ul
+{   display: flex;
+    
+}
+.Navbar__List ul a
+{
+    text-decoration: none;
+    color: rgb(183, 183, 183);
+    background-color: rgb(31, 31, 31);
+}
+
+.Navbar__List ul li
+{   
+    list-style-type: none ;
+    margin: 20px;
+    background-color: rgb(31, 31, 31);
+    padding:5px;
+    
+    
+}
+
+.Navbar__List ul li:hover
+{
+    transform: scale(1.1);
+    transition: ease-in-out 0.1s;
+    color:rgb(28, 152, 220);
+    
+}

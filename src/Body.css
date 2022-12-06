@@ -1,0 +1,19 @@
+.Body__Container h1
+{
+    display: flex;
+    flex-direction:column;
+    font-family: Helvetica;
+    justify-content: center;
+    padding: 50px;
+    color:rgb(28, 152, 220);
+    max-width: 100%;
+}
+
+
+.Task__List
+{
+    display:inline-grid;
+    margin-left: 20px;
+    grid-template-columns: auto auto auto auto auto;
+}
+

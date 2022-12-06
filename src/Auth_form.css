@@ -1,0 +1,85 @@
+.Login__Screen
+{   display: flex;
+    margin: auto;
+  
+    justify-content: center;
+    transform: translateY(50%);
+    filter: drop-shadow(4px 4px 5px rgba(0,0,0,1));
+    max-width: 600px;
+   
+}
+
+.Login__Form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Login__Form h1
+{
+    color:rgb(43, 177, 234);
+    margin: 10px;
+}
+
+.Form__Controls
+{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Form__Controls label
+{
+    color:rgb(200, 195, 195);
+    font-size: large;
+    margin: 10px;
+}
+
+.Form__Controls input
+{
+    border:none;
+    outline: none;
+    color:gray;
+    background-color: black;
+    border-radius: 10px;
+    height: 40px;
+    width: 380px;
+    padding: 10px;
+}
+
+.Login_Form_button
+{
+    margin:20px;
+    padding:15px;
+    width:100px;
+    background-color:rgb(43, 177, 234);
+    border-radius: 10px;
+}
+
+.Login_Form_button:hover
+{
+    transform: scale(1.1);
+    transition: 0.2s ease all;
+    cursor: pointer;
+}
+.update_or_add
+{
+    margin: 30px;
+}
+.Login_ForgetPart
+{
+    text-decoration: none;
+    list-style: none;
+    color:white;
+    margin-right: 20px;
+}
+
+.Login_RegisterPart
+{
+    color:rgb(43, 177, 234);
+    font-weight: 600;
+    
+}
